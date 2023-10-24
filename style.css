@@ -825,12 +825,12 @@
         background-color: violet;
         font-family: cursive;
         padding-top: 20vh;
-        height: 30vh;
+        height: 33vh;
     
     
     }
     
-    div.imagen {
+    .imagen {
         background-color: rgba(238, 53, 130, 0.911);
         padding: 10px;
         width: 100%;
@@ -840,8 +840,7 @@
     
     }
     
-    .imagen>img {
-    
+    .imagen>img {    
     
         border-radius: 100px;
         width: 80vw;
@@ -874,14 +873,8 @@
         line-height: 1.5em;
     }
     
-    aside {
-    
-        width: 50vw;
-        align-items: center;
-        text-align: center;
-    }
-    
-    aside>img {
+        
+    .imagen2 {
         width: 50vw;
         height: 60vh;
         border-radius: 20%;
