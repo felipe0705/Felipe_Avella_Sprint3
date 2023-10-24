@@ -6,24 +6,24 @@
     }
 
     header {
-        
-        
-        background-color: rgba(238, 53, 130, 0.911);        
+
+
+        background-color: rgba(238, 53, 130, 0.911);
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
-        text-align: center;     
-        padding-bottom: 20px;  
+        text-align: center;
+        padding-bottom: 20px;
 
     }
 
 
-    #logo {        
-        width: 15vw; 
+    #logo {
+        width: 13vw;
     }
 
     #boton {
-       
+
         text-align: center;
         list-style-type: none;
         gap: 0.5rem;
@@ -48,21 +48,21 @@
         color: black;
     }
 
-    .banner {        
-        
+    .banner {
+
         font-size: 0.5rem;
         background-color: violet;
-        font-family: cursive;        
+        font-family: cursive;
         height: 6vh;
         text-align: center;
         flex-direction: column;
-        
+
 
     }
 
     /*index.html*/
     .imagen {
-        
+
         background-color: rgba(238, 53, 130, 0.911);
         padding: 10px;
         width: 100%;
@@ -81,17 +81,17 @@
 
     #main1 {
 
-        
+
         padding: 10px;
         background-color: violet;
         height: 80vh;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        
+
     }
 
-    .parrafo {        
+    .parrafo {
         background-color: rgba(238, 53, 130, 0.911);
         padding: 10px;
         text-align: center;
@@ -106,41 +106,41 @@
         width: 60vw;
         height: 40vh;
         border-radius: 20%;
-        
+
     }
-   /* about*/
-   .contenedor {
 
-    padding: 20px;
-    background-color: rgb(238, 53, 130, 0.911);
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+    /* about*/
+    .contenedor {
 
-    
+        padding: 10px;
+        background-color: rgb(238, 53, 130, 0.911);
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
 
-}
 
-.contenedor>img {
 
-    border-radius: 30px;
-    margin: 0 auto;
-    width: 50vw;
-    height: 40vh;
-    
-}
+    }
 
-.contenedor>p {
+    .contenedor>img {
 
-    margin-top: 10px;
-    background-color: violet;
-    font-size: 1rem;
-    font-family: cursive;
-    text-align: justify;
-    
-}
+        border-radius: 30px;
+        width: 50vw;
+        height: 40vh;
+
+    }
+
+    .contenedor>p {
+
+        margin-top: 10px;
+        background-color: violet;
+        font-size: 1rem;
+        font-family: cursive;
+        text-align: justify;
+
+    }
 
     /* contact*/
     div.ctd {
@@ -151,7 +151,7 @@
         height: 14vh;
         background-color: violet;
         display: flex;
-        
+
         text-align: center;
 
     }
@@ -167,7 +167,7 @@
     .contenedor2 {
 
 
-        background-color:  rgba(238, 53, 130, 0.911);
+        background-color: rgba(238, 53, 130, 0.911);
         height: 65vh;
         display: flex;
         padding: 10px;
@@ -176,7 +176,7 @@
         align-items: center;
     }
 
-    .contenedor2>p {        
+    .contenedor2>p {
         font-family: cursive;
         font-size: 1rem;
     }
@@ -185,13 +185,16 @@
 
         padding: 10px;
         height: 30vh;
-        width:70vw;
+        width: 70vw;
     }
 
- 
+
     /*information*/
-    
-    table,tr,th,td {
+
+    table,
+    tr,
+    th,
+    td {
 
         background-color: violet;
         width: 60vw;
@@ -217,15 +220,15 @@
         flex-direction: column;
         justify-content: center;
         background-color: rgba(238, 53, 130, 0.911);
-        height: 150vh;
-        
+        height: 153vh;
+
 
     }
 
     .tabla1 {
 
         position: absolute;
-        top:3%;
+        top: 3%;
         left: 18%;
         padding: 20px;
         border: 1px solid;
@@ -233,25 +236,28 @@
         flex-direction: column;
         align-items: center;
         width: 65vw;
-       
+
     }
-    ol, ul {
+
+    ol,
+    ul {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .tabla2 {
 
         position: absolute;
-        top:50%;
+        top: 50%;
         left: 18%;
         padding: 20px;
         border: 1px solid;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 65vw;      
-       
+        width: 65vw;
+
 
     }
 
@@ -266,20 +272,21 @@
         display: flex;
         align-items: center;
         padding: 10px;
-        width: 40vw;
+        width: 30vw;
     }
 
     .imagen1 {
-        height: 30vh;
-        width: 50vw;
+        height: 35vh;
+        width: 45vw;
     }
+
     .prf {
         position: absolute;
         top: 95%;
-        left: 21%;
+        left: 23%;
         padding: 10px;
         height: 6vh;
-        background-color:violet;
+        background-color: violet;
         text-align: center;
         font-size: 1.3rem;
         font-family: cursive;
@@ -300,16 +307,16 @@
     .conte {
         display: flex;
         flex-direction: column-reverse;
-        
+
         background-color: rgba(238, 53, 130, 0.911);
         height: 90vh;
         width: 100vw;
         align-items: center;
-        padding:20px;
+        padding: 20px;
     }
 
     .formulario {
-        
+
         padding: 10px;
         border: 2px solid violet;
         font-family: cursive;
@@ -336,7 +343,8 @@
         height: 6vh;
 
     }
-    .texto{
+
+    .texto {
         font-size: 0.7rem;
     }
 
@@ -348,13 +356,13 @@
         width: 8vw;
         font-size: 0.8rem;
         margin-left: 20px;
-        
+
 
     }
 
-/* footers*/
+    /* footers*/
 
-    
+
 
     footer {
 
@@ -381,7 +389,8 @@
 
     }
 }
-@media (min-width:768px) and (max-width:1023px){
+
+@media (min-width:768px) and (max-width:1024px) {
     * {
         margin: 0;
         padding: 0;
@@ -389,24 +398,24 @@
     }
 
     header {
-        
-        
-        background-color: rgba(238, 53, 130, 0.911);        
+
+
+        background-color: violet;
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
-        text-align: center;     
-        padding-bottom: 20px;  
+        text-align: center;
+        padding-bottom: 20px;
 
     }
 
 
-    #logo {        
-        width: 15vw; 
+    #logo {
+        width: 10vw;
     }
 
     #boton {
-       
+
         text-align: center;
         list-style-type: none;
         gap: 0.5rem;
@@ -427,26 +436,26 @@
     }
 
     .boton:hover {
-        background-color: violet;
+        background-color: rgba(238, 53, 130, 0.911);
         color: black;
     }
 
-    .banner {        
-        
+    .banner {
+
         font-size: 0.5rem;
-        background-color: violet;
-        font-family: cursive;        
+        background-color: rgba(238, 53, 130, 0.911);
+        font-family: cursive;
         height: 6vh;
         text-align: center;
         flex-direction: column;
-        
+
 
     }
 
     /*index.html*/
     .imagen {
-        
-        background-color: rgba(238, 53, 130, 0.911);
+
+        background-color: violet;
         padding: 10px;
         width: 100%;
         height: 45vh;
@@ -464,18 +473,18 @@
 
     #main1 {
 
-        
+
         padding: 10px;
-        background-color: violet;
+        background-color: rgba(238, 53, 130, 0.911);
         height: 80vh;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        
+
     }
 
-    .parrafo {        
-        background-color: rgba(238, 53, 130, 0.911);
+    .parrafo {
+        background-color: violet;
         padding: 10px;
         text-align: center;
         border-radius: 50px;
@@ -489,41 +498,42 @@
         width: 60vw;
         height: 40vh;
         border-radius: 20%;
-        
+
     }
-   /* about*/
-   .contenedor {
 
-    padding: 20px;
-    background-color: rgb(238, 53, 130, 0.911);
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+    /* about*/
+    .contenedor {
 
-    
+        padding: 20px;
+        background-color: violet;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
 
-}
 
-.contenedor>img {
 
-    border-radius: 30px;
-    margin: 0 auto;
-    width: 50vw;
-    height: 40vh;
-    
-}
+    }
 
-.contenedor>p {
+    .contenedor>img {
 
-    margin-top: 10px;
-    background-color: violet;
-    font-size: 1rem;
-    font-family: cursive;
-    text-align: justify;
-    
-}
+        border-radius: 30px;
+        margin: 0 auto;
+        width: 50vw;
+        height: 40vh;
+
+    }
+
+    .contenedor>p {
+
+        margin-top: 10px;
+        background-color: rgba(238, 53, 130, 0.911);
+        font-size: 1rem;
+        font-family: cursive;
+        text-align: justify;
+
+    }
 
     /* contact*/
     div.ctd {
@@ -532,9 +542,8 @@
         flex-direction: column;
         padding: 10px;
         height: 14vh;
-        background-color: violet;
+        background-color: rgba(238, 53, 130, 0.911);
         display: flex;
-        
         text-align: center;
 
     }
@@ -549,9 +558,8 @@
 
     .contenedor2 {
 
-
-        background-color:  rgba(238, 53, 130, 0.911);
-        height: 65vh;
+        background-color: violet;
+        height: 50vh;
         display: flex;
         padding: 10px;
         flex-direction: column;
@@ -559,7 +567,7 @@
         align-items: center;
     }
 
-    .contenedor2>p {        
+    .contenedor2>p {
         font-family: cursive;
         font-size: 1rem;
     }
@@ -568,15 +576,18 @@
 
         padding: 10px;
         height: 30vh;
-        width:70vw;
+        width: 70vw;
     }
 
- 
-    /*information*/
-    
-    table,tr,th,td {
 
-        background-color: violet;
+    /*information*/
+
+    table,
+    tr,
+    th,
+    td {
+
+        background-color: rgba(238, 53, 130, 0.911);
         width: 60vw;
         height: 10vh;
         border: 1px rgb(5, 0, 0) solid;
@@ -586,7 +597,7 @@
     }
 
     .table {
-        background-color: rgba(238, 53, 130, 0.911);
+        background-color: violet;
         padding: 20px;
 
     }
@@ -599,16 +610,16 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: rgba(238, 53, 130, 0.911);
-        height: 150vh;
-        
+        background-color: violet;
+        height: 170vh;
+
 
     }
 
     .tabla1 {
 
         position: absolute;
-        top:3%;
+        top: 2%;
         left: 18%;
         padding: 20px;
         border: 1px solid;
@@ -616,31 +627,34 @@
         flex-direction: column;
         align-items: center;
         width: 65vw;
-       
+
     }
-    ol, ul {
+
+    ol,
+    ul {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .tabla2 {
 
         position: absolute;
-        top:50%;
+        top: 45%;
         left: 18%;
         padding: 20px;
         border: 1px solid;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 65vw;      
-       
+        width: 65vw;
+
 
     }
 
     .tabla {
 
-        background-color: violet;
+        background-color: rgba(238, 53, 130, 0.911);
         padding: 25px;
 
     }
@@ -653,16 +667,17 @@
     }
 
     .imagen1 {
-        height: 30vh;
-        width: 50vw;
+        height: 34vh;
+        width: 45vw;
     }
+
     .prf {
         position: absolute;
         top: 95%;
-        left: 21%;
+        left: 24%;
         padding: 10px;
         height: 6vh;
-        background-color:violet;
+        background-color: rgba(238, 53, 130, 0.911);
         text-align: center;
         font-size: 1.3rem;
         font-family: cursive;
@@ -683,18 +698,18 @@
     .conte {
         display: flex;
         flex-direction: column-reverse;
-        
-        background-color: rgba(238, 53, 130, 0.911);
+
+        background-color: violet;
         height: 90vh;
         width: 100vw;
         align-items: center;
-        padding:20px;
+        padding: 20px;
     }
 
     .formulario {
-        
+
         padding: 10px;
-        border: 2px solid violet;
+        border: 2px solid rgba(238, 53, 130, 0.911);
         font-family: cursive;
         height: 90vh;
         width: 43vw;
@@ -719,29 +734,30 @@
         height: 6vh;
 
     }
-    .texto{
+
+    .texto {
         font-size: 0.7rem;
     }
 
     #enviar {
         padding: 2px;
-        background-color: violet;
+        background-color: rgba(238, 53, 130, 0.911);
         color: black;
         font-family: cursive;
         width: 8vw;
         font-size: 0.8rem;
         margin-left: 20px;
-        
+
 
     }
 
-/* footers*/
+    /* footers*/
 
-    
+
 
     footer {
 
-        background-color: rgba(238, 53, 130, 0.911);
+        background-color: violet;
         font-size: 1.3rem;
         padding-top: 10px;
         height: 8vh;
@@ -753,7 +769,7 @@
     }
 
     footer.ftr {
-        background-color: violet;
+        background-color: rgba(238, 53, 130, 0.911);
         font-size: 1.3rem;
         padding-top: 10px;
         height: 7vh;
@@ -764,7 +780,8 @@
 
     }
 }
-@media screen and (min-width:1024px){
+
+@media screen and (min-width:1024px) {
 
     * {
         margin: 0;
@@ -779,28 +796,28 @@
         display: flex;
         align-items: center;
         width: 100%;
-        
+
     }
-    
+
     #logo {
-    
+
         width: 15vw;
         height: 30vh;
-        margin-left: 100px;
-    
+        margin-left: 40px;
+
     }
-    
+
     #boton {
         display: flex;
         align-items: center;
         list-style-type: none;
         gap: 0.5rem;
     }
-    
+
     .boton {
-    
-        padding: 5px;    
-        margin: 40px;
+
+        padding: 5px;
+        margin: 20px;
         cursor: pointer;
         font-size: 1.4rem;
         border-radius: 20px;
@@ -809,15 +826,16 @@
         text-align: center;
         text-decoration: none;
         color: white;
-    
+
     }
-    .boton:hover{
+
+    .boton:hover {
         background-color: violet;
         color: black;
     }
-    
+
     .banner {
-    
+
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -826,29 +844,29 @@
         font-family: cursive;
         padding-top: 20vh;
         height: 33vh;
-    
-    
+
+
     }
-    
+
     .imagen {
         background-color: rgba(238, 53, 130, 0.911);
         padding: 10px;
         width: 100%;
         height: 53vh;
         text-align: center;
-    
-    
+
+
     }
-    
-    .imagen>img {    
-    
+
+    .imagen>img {
+
         border-radius: 100px;
         width: 80vw;
         height: 50vh;
     }
-    
+
     #main1 {
-    
+
         margin: 0px;
         padding: 20px;
         background-color: violet;
@@ -856,12 +874,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    
-    
+
+
     }
-    
+
     .parrafo {
-    
+
         position: relative;
         background-color: rgba(238, 53, 130, 0.911);
         width: 70vw;
@@ -872,125 +890,124 @@
         font-size: 1.5em;
         line-height: 1.5em;
     }
-    
-        
+
+
     .imagen2 {
         width: 50vw;
         height: 60vh;
         border-radius: 20%;
         margin-left: 10px;
     }
-    
+
     /* contact*/
-    div.ctd {
-    
-    
-        padding: 20px;
-        height: 23vh;
+    .ctd {
+
+
+        height: 10vh;
         background-color: violet;
         display: flex;
-        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
         text-align: center;
-    
+
     }
-    
-    div.contenedor3>p {
-    
-    
-        width: 45vw;
-        font-size: 2rem;
+
+    .contenedor3>p {
+
+        font-size: 1.5rem;
         font-family: cursive;
-    
+
     }
-    
-    div.contenedor2 {
-    
-    
-        background-color: violet;
-        height: 90vh;
+
+    .contenedor2 {
+        padding: 10px;
+        background-color: rgba(238, 53, 130, 0.911);
+        height: 80vh;
         text-align: center;
         align-items: center;
     }
-    
+
     div.contenedor2>p {
-    
+
         padding: 20px;
         font-family: cursive;
-        background-color: rgba(238, 53, 130, 0.911);
+        background-color: violet;
         font-size: 1.5rem;
     }
-    
+
     div.contenedor2>img {
-    
+
         height: 50vh;
         width: 60vw;
     }
-    
+
     /* about*/
     div.contenedor {
-    
+
         background-color: rgb(238, 53, 130, 0.911);
-        height: 85vh;
+        height: 80vh;
         display: flex;
         text-align: center;
         align-items: center;
-    
+        padding: 10px;
     }
-    
+
     .contenedor>img {
-    
+
         border-radius: 100px;
-        margin-left: 100px;
+        margin-left: 50px;
         width: 35vw;
         height: 60vh;
         padding: 10px;
     }
-    
+
     .contenedor>p {
-    
-    
+
+        border-radius: 40px;
+        padding: 10px;
+        margin-left: 30px;
         background-color: violet;
-        margin-left: 150px;
-        height: 50vh;
-        width: 90vh;
+        height: 45vh;
+        width: 80vh;
         font-size: 1.5rem;
         font-family: cursive;
-    
+        text-align: center;
+        
     }
-    
+
     /*information*/
     table,
     tr,
     th,
     td {
-    
+
         background-color: violet;
         width: 550px;
         height: 150px;
         border: 1px rgb(5, 0, 0) solid;
         margin-left: 350px;
         text-align: center;
-    
+
     }
-    
+
     .table {
         background-color: rgba(238, 53, 130, 0.911);
         padding: 20px;
-    
+
     }
-    
+
     /*benefits*/
-    
+
     #main {
         padding: 20px;
         display: flexbox;
         background-color: rgba(238, 53, 130, 0.911);
-        height: 100vh;
-    
+        height: 80vh;
+
     }
-    
+
     .tabla1 {
-    
+
         padding: 20px;
         border: 1px solid;
         display: flex;
@@ -999,12 +1016,12 @@
         justify-content: center;
         justify-content: space-evenly;
         margin-left: 100px;
-    
-    
+
+
     }
-    
+
     .tabla2 {
-    
+
         padding: 20px;
         border: 1px solid;
         display: flex;
@@ -1013,78 +1030,84 @@
         justify-content: center;
         justify-content: space-evenly;
         margin-left: 100px;
-    
+
     }
-    
+
     .tabla {
-    
+
         background-color: violet;
         padding: 30px;
-    
+
     }
-    
+
     .image {
         padding: 10px;
         margin-left: 25px;
         width: 200px;
     }
-    
+
     .tabla1>img {
         height: 200px;
         width: 300px;
-    
+
     }
-    
+
     .tabla2>img {
         height: 220px;
         width: 300px;
-    
+
     }
-    
+
     /*raffle*/
-    
-    
-    
+
+
+
     .mapa {
         border: 3px solid white;
         width: 30vw;
         height: 60vh;
     }
-    .conte{
-        
+
+    .conte {
+
         display: flex;
         justify-content: space-evenly;
         background-color: rgba(238, 53, 130, 0.911);
-        height: 130vh;
+        height: 120vh;
         align-items: center;
     }
+
     .formulario {
-        
+
         padding: 10px;
         border: 2px solid violet;
         font-family: cursive;
-        height: 118vh;
-        width: 35vw;    
-        
-        
+        height: 100vh;
+        width: 35vw;
+
+
     }
-    .letras{
+
+    .letras {
         font-size: 1.5rem;
-        
+
+
     }
+
     .nombre {
         border: 1px solid black;
         width: 33vw;
         height: 6vh;
-        
+
     }
+
     .nombres {
         border: 1px solid black;
         width: 33vw;
         height: 20vh;
-        
+
     }
-    
+
     #enviar {
         padding: 5px;
         background-color: blue;
@@ -1092,23 +1115,23 @@
         font-family: cursive;
         width: 5vw;
         font-size: 1rem;
-        margin-left: 9.5vw;
-        
+        margin-left: 80px;
+
     }
-    
-    
-    
+
+
+
     .prf {
         height: 8vh;
         background-color: rgba(238, 53, 130, 0.911);
         text-align: center;
         font-size: 30px;
         font-family: cursive;
-    
+
     }
-    
+
     footer {
-    
+
         background-color: rgba(238, 53, 130, 0.911);
         font-size: 2rem;
         padding-top: 10px;
@@ -1117,9 +1140,9 @@
         font-family: cursive;
         align-content: center;
         align-items: center;
-    
+
     }
-    
+
     footer.ftr {
         background-color: violet;
         font-size: 2rem;
@@ -1129,6 +1152,6 @@
         font-family: cursive;
         align-content: center;
         align-items: center;
-    
+
     }
 }
